@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://vbpzvm6dhc-svg.github.io/shop-website-projects/sitemap.xml
