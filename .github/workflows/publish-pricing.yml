@@ -1,11 +1,8 @@
-name: Publish LUCEN DESIGN pricing
+name: Publish LUCEN DESIGN website
 
 on:
   push:
     branches: [main]
-    paths:
-      - "pricing/**"
-      - ".github/workflows/publish-pricing.yml"
   workflow_dispatch:
 
 permissions:
@@ -14,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: false
 
 jobs:
@@ -24,11 +21,19 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout current site
         uses: actions/checkout@v4
+      - name: Confirm required pages exist
+        run: |
+          test -s index.html
+          test -s services/index.html
+          test -s works/index.html
+          test -s process/index.html
+          test -s faq/index.html
+          test -s contact/index.html
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Upload static HTML
+      - name: Upload full website
         uses: actions/upload-pages-artifact@v4
         with:
           path: '.'
