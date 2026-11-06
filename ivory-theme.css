@@ -52,3 +52,23 @@ body{background:#f8f5ed;color:#36414a}
 .value .number,.step b{color:#788b9b}
 .story-panel,.subhero .glass{border-left:2px solid #b6a078}
 a:focus-visible,summary:focus-visible{outline-color:#788b9b}
+
+/* v8: visible blue-and-ivory treatment, replacing remaining hard-coded brown values */
+.hero{background-color:#dbe5e9;background-blend-mode:luminosity; }
+.hero:after{background:linear-gradient(90deg,rgba(241,246,247,.22),rgba(240,244,245,.06))}
+.hero-panel.glass{background:rgba(255,253,248,.96);border:1px solid #dce4e7;border-left:3px solid #b6a078}
+.hero-panel .editorial-label,.subhero .editorial-label,.section-head .editorial-label{color:#788b9b}
+.hero-panel h1,.subhero h1{color:#36414a}
+.hero-panel p,.subhero p{color:#68747c}
+.hero-actions .text-link{color:#526d80;border-bottom-color:#788b9b}
+.nav .contact-link{background:#788b9b!important;color:#fff}
+.nav .contact-link:hover{background:#627888!important}
+.ticker,.ticker-inner{background:#f0f3f2;color:#667f8e}
+.brand{color:#36414a}.brand-symbol{color:#788b9b;border-color:#b6a078}
+.eyebrow{color:#788b9b}
+.hero-label,.scroll-note{color:#fff}
+.project-info p,.work-disclaimer,.footnote{color:#68747c}
+.editorial-card .eyebrow{color:#788b9b}
+.story-strip,.subhero{background-color:#e0e8eb;background-blend-mode:luminosity}
+.cta-section{background:#e5ebed;color:#36414a}
+.site-footer{background:#e8edef;color:#36414a}
