@@ -72,3 +72,31 @@ a:focus-visible,summary:focus-visible{outline-color:#788b9b}
 .story-strip,.subhero{background-color:#e0e8eb;background-blend-mode:luminosity}
 .cta-section{background:#e5ebed;color:#36414a}
 .site-footer{background:#e8edef;color:#36414a}
+
+/* v9 champagne-gold trial: ivory + restrained gold, no dusty-blue accents */
+:root{--ink:#403d38;--muted:#756f65;--cream:#f8f5ed;--taupe:#b6a078;--forest:#b6a078;--line:rgba(182,160,120,.22)}
+body{color:var(--ink)}
+.brand{color:#403d38}.brand-symbol{color:#b6a078;border-color:#b6a078}
+.editorial-label,.portrait-label,.hero-panel .editorial-label,.subhero .editorial-label,.section-head .editorial-label{color:#b6a078}
+.nav .contact-link,.button,.cta-grid .button{background:#b6a078!important;color:#292820!important}
+.nav .contact-link:hover,.button:hover,.cta-grid .button:hover{background:#a48b5f!important}
+.hero{background-color:#eee5d5;background-blend-mode:screen}
+.hero:after{background:linear-gradient(90deg,rgba(250,246,237,.25),rgba(251,248,242,.06))}
+.hero-panel.glass{background:rgba(255,253,248,.96);border-color:#e9dfca;border-left:3px solid #b6a078}
+.hero-panel h1,.subhero h1{color:#403d38}
+.hero-panel p,.subhero p{color:#756f65}
+.hero-actions .text-link{color:#8d7957;border-bottom-color:#b6a078}
+.ticker,.ticker-inner{background:#f8f3e9;color:#978464}
+.eyebrow,.editorial-card .eyebrow{color:#a18b63}
+.glass{border-color:#e9dfca;box-shadow:0 14px 48px rgba(83,70,46,.06)}
+.work-section{background:#f3efe6}
+.project,.editorial-card{border-color:#e9dfca}
+.story-strip,.subhero{background-color:#eee5d5;background-blend-mode:screen}
+.cta-section{background:#f0eadf;color:#403d38;border-color:#e4d9c3}
+.cta-grid p{color:#756f65}.cta-grid .editorial-label{color:#b6a078}
+.site-footer{background:#efe9df;color:#403d38;border-top-color:#e4d9c3}
+.footer-top p,.footer-links,.footer-links small,.project-info p,.work-disclaimer,.footnote{color:#756f65}
+.footer-links{border-top-color:#e0d4bf}
+.value .number,.step b{color:#b6a078}
+.story-panel,.subhero .glass{border-left:2px solid #b6a078}
+a:focus-visible,summary:focus-visible{outline-color:#b6a078}
