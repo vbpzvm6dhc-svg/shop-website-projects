@@ -43,3 +43,48 @@ a:focus-visible,summary:focus-visible{outline-color:#b6a078}
 .lucen-consult h3{font-weight:400;font-size:24px;margin:8px 0}
 .lucen-consult p{color:#756f65;margin:0;font-size:12px}
 @media(max-width:760px){.lucen-service-grid{grid-template-columns:1fr}.lucen-service-card{min-height:210px}.lucen-consult{flex-direction:column;align-items:flex-start;padding:28px}}
+
+/* LUCEN Editorial Minimal — unified site-wide design, v14 */
+:root{--ink:#393a37;--muted:#77746e;--cream:#f8f7f3;--milk:#fffefa;--stone:#eeebe5;--taupe:#b4a07c;--forest:#b4a07c;--line:rgba(126,115,97,.19)}
+html{scroll-behavior:smooth}
+body{background:#f8f7f3;color:#393a37;-webkit-font-smoothing:antialiased}
+body,h1,h2,h3,h4,p,a,button{font-feature-settings:"palt" 1}
+h1,h2,h3{letter-spacing:.045em}
+p{line-height:1.95}
+a{transition:color .22s ease,background-color .22s ease,border-color .22s ease,opacity .22s ease}
+a:hover{opacity:.88}
+.site-header,.simple-header{background:rgba(255,254,250,.96);border-bottom:1px solid #e8e3d9;box-shadow:none}
+.brand,.simple-header strong{color:#393a37;letter-spacing:.12em}
+.brand-symbol{color:#b4a07c;border-color:#b4a07c}
+.nav a{letter-spacing:.07em}
+.nav .contact-link,.button,.cta-grid .button{background:#b4a07c!important;color:#fffefa!important;border:1px solid #b4a07c!important;box-shadow:none!important;border-radius:2px!important;font-weight:500;letter-spacing:.07em}
+.nav .contact-link:hover,.button:hover,.cta-grid .button:hover{background:#9f8964!important;border-color:#9f8964!important}
+.button.ghost{background:transparent!important;color:#393a37!important;border-color:#c7bba7!important}
+.hero-panel.glass,.glass,.simple-panel{background:rgba(255,254,250,.96);box-shadow:0 15px 48px rgba(65,58,47,.045);border-color:#e9e4da}
+.hero-panel{border-left:2px solid #b4a07c}
+.hero-panel h1,.subhero h1,.simple-main h1{color:#393a37;letter-spacing:.055em}
+.hero-panel p,.subhero p,.simple-main p{color:#77746e}
+.eyebrow,.editorial-label,.portrait-label{color:#9c8764;letter-spacing:.16em}
+.section-head h2,.intro-copy h2,.simple-main h2{color:#393a37;letter-spacing:.07em}
+.ticker,.ticker-inner{background:#f2eee7;color:#93846f}
+.work-section{background:#f3f0e9}
+.project,.editorial-card,.lucen-service-card,.sample-card{background:#fffefa;border:1px solid #e8e2d7;box-shadow:none}
+.project img,.portrait-frame img,.sample-card img{filter:saturate(.83) contrast(.98)}
+.lucen-service-grid{gap:22px}
+.lucen-service-card{padding:40px 32px;min-height:285px;transition:transform .25s ease,border-color .25s ease}
+.lucen-service-card:hover{transform:translateY(-3px);border-color:#c8b99d}
+.lucen-service-card h3{font-size:25px;color:#393a37;letter-spacing:.08em}
+.lucen-service-card p{color:#77746e}
+.lucen-service-card a,.hero-actions .text-link{color:#8b7859;border-bottom-color:#b4a07c}
+.lucen-consult,.cta-section{background:#eee9df;border:1px solid #e1d8c9;color:#393a37;box-shadow:none}
+.site-footer,.simple-footer{background:#eeebe5;color:#393a37;border-top:1px solid #e1dacf}
+.footer-top p,.footer-links,.footer-links small{color:#77746e}
+.simple-main{padding:84px 0 105px}
+.simple-main .simple-wrap>h1{margin-bottom:25px}
+.simple-panel{border-left:2px solid #b4a07c;padding:42px}
+.sample-grid{gap:24px}
+.sample-card{padding:12px}
+.sample-card figcaption{font-size:12px;letter-spacing:.05em}
+a:focus-visible,button:focus-visible{outline:2px solid #b4a07c;outline-offset:3px}
+@media(max-width:760px){.lucen-service-grid{grid-template-columns:1fr;gap:14px}.lucen-service-card{min-height:215px;padding:30px 26px}.simple-main{padding:55px 0 75px}.simple-panel{padding:26px}.lucen-consult{padding:28px}.hero-panel{border-left-width:2px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}a,.lucen-service-card{transition:none}}
