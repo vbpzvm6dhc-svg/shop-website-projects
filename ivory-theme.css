@@ -29,3 +29,26 @@ body{background:#f8f5ed;color:var(--ink)}
 .value .number,.step b{color:#b59b79}
 a:focus-visible,summary:focus-visible{outline-color:#a88b62}
 @media(max-width:700px){.hero-panel{border-left-width:2px}.site-header{background:rgba(255,253,247,.97)}}
+
+/* LUCEN refined palette: ivory 85%, dusty blue 12%, champagne gold 3%. */
+:root{--ink:#36414a;--muted:#68747c;--cream:#f8f5ed;--milk:#fffdf8;--stone:#eeeae2;--taupe:#788b9b;--forest:#788b9b;--line:rgba(120,139,155,.20)}
+body{background:#f8f5ed;color:#36414a}
+.site-header{background:rgba(255,253,248,.96);border-bottom-color:#e4e5e1}
+.brand-symbol{color:#a58e68;border-color:#b6a078}
+.editorial-label,.portrait-label{color:#788b9b}
+.hero-panel{border-left:2px solid #b6a078}
+.hero-panel:after{background:#b6a078}
+.glass{background:rgba(255,253,248,.94);border-color:rgba(120,139,155,.17);box-shadow:0 14px 48px rgba(54,65,74,.075)}
+.nav .contact-link,.button,.cta-grid .button{background:#788b9b;color:#fff}
+.nav .contact-link:hover,.button:hover,.cta-grid .button:hover{background:#627888}
+.button.ghost{background:#fffdf8;color:#36414a;border-color:#c6d0d6}
+.work-section{background:#f1eee7}
+.project,.editorial-card{background:#fffdf8;border-color:#e2e5e5;box-shadow:0 10px 28px rgba(54,65,74,.035)}
+.cta-section{background:#eef0ed;color:#36414a;border-color:#dce2e3}
+.cta-grid p{color:#68747c}.cta-grid .editorial-label{color:#788b9b}
+.site-footer{background:#eceeea;color:#36414a;border-top-color:#dce2e3}
+.footer-top p,.footer-links,.footer-links small{color:#68747c}
+.footer-links{border-top-color:#d4dcde}
+.value .number,.step b{color:#788b9b}
+.story-panel,.subhero .glass{border-left:2px solid #b6a078}
+a:focus-visible,summary:focus-visible{outline-color:#788b9b}
