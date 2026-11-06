@@ -32,3 +32,14 @@ body{background:#f8f5ed;color:var(--ink)}
 .value .number,.step b{color:#b6a078}
 a:focus-visible,summary:focus-visible{outline-color:#b6a078}
 @media(max-width:700px){.hero-panel{border-left-width:2px}}
+
+/* Service navigation */
+.lucen-service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.lucen-service-card{background:#fffdf8;border:1px solid #e6dbc6;padding:38px 30px;display:flex;flex-direction:column;min-height:280px}
+.lucen-service-card h3{font-size:25px;font-weight:400;margin:18px 0 12px;color:#403d38}
+.lucen-service-card p{font-size:13px;line-height:2.1;color:#756f65;margin:0 0 24px}
+.lucen-service-card a{margin-top:auto;color:#89714b;border-bottom:1px solid #b6a078;padding-bottom:8px;font-size:12px;align-self:flex-start}
+.lucen-consult{margin-top:28px;padding:34px 38px;background:#f0eadf;border:1px solid #e3d7bf;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.lucen-consult h3{font-weight:400;font-size:24px;margin:8px 0}
+.lucen-consult p{color:#756f65;margin:0;font-size:12px}
+@media(max-width:760px){.lucen-service-grid{grid-template-columns:1fr}.lucen-service-card{min-height:210px}.lucen-consult{flex-direction:column;align-items:flex-start;padding:28px}}
